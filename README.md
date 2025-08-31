@@ -73,7 +73,6 @@ Backend (Node.js API Routes)
   "length": "medium",
   "postCount": 3,
   "hashtags": "#productivity #remotework",
-//   "cta": "What's your experience?",
   "examples": "Example posts to mimic...",
   "language": "English",
   "llmProvider": "gemini"
@@ -91,11 +90,6 @@ The AI agent follows this explicit 6-step process:
 5. **Content Safety**: Runs guardrails (profanity, PII, claims validation)
 6. **Packaging**: Returns final JSON with metrics (tokens, latency, cost estimates)
 
-## Rate Limiting
-
-- **Limit**: 10 requests per minute per IP address
-- **Window**: 60 seconds rolling window
-- **Response**: 429 status when exceeded
 
 ## Testing
 
@@ -134,18 +128,4 @@ All pipeline steps are logged server-side for debugging:
 - Safety check results
 - Error handling and recovery
 
-## Support
 
-For issues or questions, check the console logs for detailed pipeline information.# nugget-task-mb
-# nugget-task-mb
-# nugget-task
-# backup-task
-# task-deploy
-# task-deploy
-# task-deploy
-# task-deploy
-# task-deploy
-# task-deploy
-# task-deploy
-# nugget-mb
-# nugget-mb
